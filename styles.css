@@ -8,19 +8,13 @@
 .pixel {
     width: 10px;
     height: 10px;
-    border: 1px solid #fff;
+    background-color: #000; /* Set the pixel color */
     position: absolute;
 }
 
-.snakeBodyPixel {
-    background-color: #00f;
-}
-
 .food {
-    background-color: #f00;
-}
-
-.scoreBoard {
-    text-align: center;
-    font-size: 18px;
+    width: 10px;
+    height: 10px;
+    background-color: #f00; /* Set the food color */
+    position: absolute;
 }
