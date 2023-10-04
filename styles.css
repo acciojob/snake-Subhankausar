@@ -1,2 +1,26 @@
+#gameContainer {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #000;
+    position: relative;
+}
 
-/* Your CSS Code here. */
+.pixel {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    position: absolute;
+}
+
+.snakeBodyPixel {
+    background-color: #00f;
+}
+
+.food {
+    background-color: #f00;
+}
+
+.scoreBoard {
+    text-align: center;
+    font-size: 18px;
+}
